@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Provides automatically generated model classes from Swagger to use the Axway API Gateway.
+Reference Swagger : http://apidocs.axway.com/api_documentation/apimanager/7.5.2/api-manager-V_1_3-swagger.json</Description>
+    <Version>1.3.0</Version>
+    <Authors>Bastien Aublet</Authors>
+    <Company>Moskitos</Company>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>Axway.ApiGateway.Model.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
+  </ItemGroup>
+
+</Project>
